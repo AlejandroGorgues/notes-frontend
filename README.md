@@ -6,5 +6,5 @@ More specifically, this code is used by the backend repository to generate a dis
 The functionality of the whole project are:
 * Create notes with important tag.
 * Be able to change the important tag of a note.
-
-The link to the backend repository is [here](https://github.com/AlejandroGorgues/notes-backend).
+## Extra
+* The link to the backend repository is [here](https://github.com/AlejandroGorgues/notes-backend).
