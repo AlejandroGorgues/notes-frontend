@@ -11,6 +11,7 @@ export default [
     languageOptions: {
       ecmaVersion: 2020,
       globals: globals.browser,
+      "vitest-globals/env": true,
       parserOptions: {
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
@@ -52,6 +53,7 @@ export default [
       'react/react-in-jsx-scope': 'off',
       'react/prop-types': 0,
       'no-unused-vars': 0,
+      ...vitest-globals.recommended,
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
       ...react.configs['jsx-runtime'].rules,
