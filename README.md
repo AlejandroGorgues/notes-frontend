@@ -3,7 +3,7 @@ This repository contains the code to run the frontend related to the notes proje
 
 More specifically, this code is used by the backend repository to generate a dist folder to communicate directly to the backend on the same url to deploy one time.
 
-The functionality of the whole project are:
+Features of the whole project are:
 * Create notes with important tag.
 * Be able to change the important tag of a note.
 ## Extra
